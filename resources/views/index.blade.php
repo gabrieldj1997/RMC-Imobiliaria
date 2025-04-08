@@ -64,14 +64,14 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
+                    <a href="{{ url('./') }}" class="logo">
                         <h1>Atlas</h1>
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="index.html" class="active">Principal</a></li>
-                      <li><a href="properties.html">Properties</a></li>
+                      <li><a href="{{ route('index') }}" class="active">Principal</a></li>
+                      <li><a href="{{ url('./properties') }}">Properties</a></li>
                       <li><a href="property-details.html">Property Details</a></li>
                       <li><a href="contact.html">Contact Us</a></li>
                       <li><a href="#"><i class="fa fa-calendar"></i>Agende uma visita!</a></li>
