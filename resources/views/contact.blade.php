@@ -14,10 +14,10 @@
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="{{asset('/css/fontawesome.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/templatemo-villa-agency.css')}}">
+    <link rel="stylesheet" href="{{asset("/css/owl.css")}}">
+    <link rel="stylesheet" href="{{asset('/css/animate.css')}}">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
   </head>
 
@@ -70,11 +70,11 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="properties.html">Properties</a></li>
+                      <li><a href="{{ route('index') }}" class="active">Principal</a></li>
+                      <li><a href="{{ route('properties') }}">Properties</a></li>
                       <li><a href="property-details.html">Property Details</a></li>
-                      <li><a href="contact.html" class="active">Contact Us</a></li>
-                      <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
+                      <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                      <li><a href="#"><i class="fa fa-calendar"></i>Agende uma visita!</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -110,13 +110,13 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="item phone">
-                <img src="assets/images/phone-icon.png" alt="" style="max-width: 52px;">
+                <img src="{{asset('/images/phone-icon.png')}}" alt="" style="max-width: 52px;">
                 <h6>010-020-0340<br><span>Phone Number</span></h6>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="item email">
-                <img src="assets/images/email-icon.png" alt="" style="max-width: 52px;">
+                <img src="{{asset('/images/email-icon.png')}}" alt="" style="max-width: 52px;">
                 <h6>info@villa.co<br><span>Business Email</span></h6>
               </div>
             </div>
@@ -178,12 +178,12 @@
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/counter.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
+  <script src="{{asset('vendor/bootstrap/js/bootstrap.min.js')}}"></script>             
+  <script src="{{asset('/js/isotope.min.js')}}"></script>
+  <script src="{{asset('/js/owl-carousel.js')}}"></script>
+  <script src="{{asset('/js/counter.js')}}"></script>
+  <script src="{{asset('/js/custom.js')}}"></script>
 
   </body>
 </html>
