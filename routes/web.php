@@ -13,3 +13,7 @@ Route::get('/properties', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+Route::get('/propertyDetails', function () {
+    return view('property-details');
+})->name('propertyDetails');
