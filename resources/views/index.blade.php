@@ -71,9 +71,9 @@
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li><a href="{{ route('index') }}" class="active">Principal</a></li>
-                      <li><a href="{{ url('./properties') }}">Properties</a></li>
+                      <li><a href="{{ route('properties') }}">Properties</a></li>
                       <li><a href="property-details.html">Property Details</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="{{ route('contact') }}">Contact Us</a></li>
                       <li><a href="#"><i class="fa fa-calendar"></i>Agende uma visita!</a></li>
                   </ul>   
                     <a class='menu-trigger'>
