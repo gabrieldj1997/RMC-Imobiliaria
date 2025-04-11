@@ -15,8 +15,8 @@
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="{{asset('css/fontawesome.css')}}">
     <link rel="stylesheet" href="{{asset('css/templatemo-villa-agency.css')}}">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="{{asset('/css/owl.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/animate.css')}}">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
   </head>
 
@@ -69,11 +69,11 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="properties.html" class="active">Properties</a></li>
+                      <li><a href="{{ route('index') }}" class="active">Principal</a></li>
+                      <li><a href="{{ route('properties') }}">Properties</a></li>
                       <li><a href="property-details.html">Property Details</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
-                      <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
+                      <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                      <li><a href="#"><i class="fa fa-calendar"></i>Agende uma visita!</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -302,11 +302,11 @@
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/counter.js"></script>
+  <script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
+  <script src="{{asset('vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+  <script src="{{asset('js/isotope.min.js')}}"></script>
+  <script src="{{asset('js/owl-carousel.js')}}"></script>
+  <script src="{{asset('js/counter.js')}}"></script>
   <script src="{{asset('js/custom.js')}}"></script>
 
   </body>
