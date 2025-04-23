@@ -18,7 +18,7 @@
           <input type="text" class="form-control" placeholder="Buscar por cidade, bairro ou código" />
         </div>
         <div class="col-md-2 d-grid">
-          <button class="btn btn-primary">Buscar</button>
+          <button class="btn btn-primary">teste</button>
         </div>
       </form>
     </div>
