@@ -1,29 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+<<<<<<< HEAD
 
 @include('layout.head')
   
+=======
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Imóveis Valparaíso</title>
+  @vite(['resources/css/app.css', 'resources/js/app.js'])
+>>>>>>> 2157108049c54ad0ca239720c68ec185ed0b2e80
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Imóveis Valparaíso</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Comprar</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Alugar</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Lançamentos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Leilões</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  @include('header')
 
   <!-- Seção de busca -->
   <section class="py-4 bg-light">
@@ -33,7 +24,7 @@
           <input type="text" class="form-control" placeholder="Buscar por cidade, bairro ou código" />
         </div>
         <div class="col-md-2 d-grid">
-          <button class="btn btn-primary">Buscar</button>
+          <button class="btn btn-primary">teste</button>
         </div>
       </form>
     </div>

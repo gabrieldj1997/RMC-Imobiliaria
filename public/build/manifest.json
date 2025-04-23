@@ -1,0 +1,34 @@
+{
+  "_index-t--hEgTQ.js": {
+    "file": "assets/index-t--hEgTQ.js",
+    "name": "index"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-Afaww9uq.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/bootstrap.min.css": {
+    "file": "assets/bootstrap-DnVUw_vK.css",
+    "src": "resources/css/bootstrap.min.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CbIDlqQR.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_index-t--hEgTQ.js"
+    ]
+  },
+  "resources/js/bootstrap.js": {
+    "file": "assets/bootstrap-CbIDlqQR.js",
+    "name": "bootstrap",
+    "src": "resources/js/bootstrap.js",
+    "isEntry": true,
+    "imports": [
+      "_index-t--hEgTQ.js"
+    ]
+  }
+}
