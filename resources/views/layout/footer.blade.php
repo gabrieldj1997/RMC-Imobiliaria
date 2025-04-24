@@ -1,4 +1,4 @@
-<footer class="bg-primary text-white text-center py-3">
+<footer class="bg-primary text-white text-center py-3 mt-auto">
     <div class="container">
       &copy; 2025 Imóveis Valparaíso. Todos os direitos reservados.
     </div>
