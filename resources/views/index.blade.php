@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<<<<<<< HEAD
 
-@include('layout.head')
+  @include('layout.head')
   
-=======
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Imóveis Valparaíso</title>
-  @vite(['resources/css/app.css', 'resources/js/app.js'])
->>>>>>> 2157108049c54ad0ca239720c68ec185ed0b2e80
 </head>
 <body>
 
-  @include('header')
+  @include('layout.header')
 
   <!-- Seção de busca -->
   <section class="py-4 bg-light">
